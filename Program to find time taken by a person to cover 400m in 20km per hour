@@ -1,0 +1,12 @@
+/*program to find the time taken by the person to cover 400m in 20km/hr
+Author:Yashwanth J;
+Date:30/7/2022
+*/
+#include<stdio.h>
+void main()
+{
+float speed_1=20,distance_m=0.4,t_hr, t_min;
+t_hr=distance_m/speed_1;//time taken in hour
+t_min=t_hr*60;//time taken in minutes
+printf("The time taken by the person to cover 400m at speed 20 km/hr is %f minutes", t_min) ;
+}
